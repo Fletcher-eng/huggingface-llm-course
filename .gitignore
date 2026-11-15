@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Secrets, never commit these
+.env
+*.key
+token.txt
+.hf_token
+hf_token*
+secrets.*
+
+# Large model files and caches
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+.cache/
+wandb/
+runs/
+
+# System files
+.DS_Store
